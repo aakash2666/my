@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-color: rgb(237, 255, 255);
+}
+.d1{
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: sticky;
+}
+li,#heading{
+    display: inline;
+    font-size: 40px;
+}
+#heading{
+    margin-left: 5px;
+
+}
+.a{
+    color: rgb(49, 45, 45);  
+
+}
+a{
+    
+    text-decoration: none;
+    transition: all 0.4s;
+    position: relative;
+    
+}
+ul{
+    margin-left: 43%;
+    display: inline;
+
+    
+}
+li{
+    margin-right: 45px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.a:hover,
+.Home{
+    color: rgb(23, 149, 151);
+}
+.Home::after{
+    content: '';
+    position: absolute;
+    background: rgb(23, 149, 151);
+    height: 2px;
+    width: 65%;
+    bottom: -2px;
+    left: 0;
+    opacity: 1;
+    
+}
+
+.a::after{
+    content: "";
+    position: absolute;
+    background: rgb(23, 149, 151);
+    height: 2px;
+    width: 0%;
+    left: 0;
+    bottom: -2px;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.a:hover::after{
+    opacity: 1;
+    width: 65%;
+}
+img.shop{
+    width: 20px;
+    background-color: transparent;
+    border: 0;
+
+}
+div.content{
+    display: inline-block;
+    padding-left: 75px;
+   
+}
+div.Adpic{
+    background-image: url("images/img.png");
+    height: 533px;
+    width: 35%;
+    background-size: cover;
+    display: inline-block;
+    margin-left: 35%;   
+}
+h4,h2,h1,p{
+    padding: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h4,h1{
+    padding-bottom: 0;
+}
+h4,h2,h1,p{
+    padding-left: 20px;
+}
+h4{
+    color: rgb(23, 149, 151);
+}
+p{
+    color: rgb(112, 111, 111);
+}
+h5.shopnow{
+    
+    cursor: pointer;
+    background-color: black;
+    display: inline-block;
+    padding: 4px;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+.shopnow:hover{
+    background-color:rgb(210, 244, 255);
+    font-weight: 1000;
+}
+
+.gap{
+    height: 20px;
+    background-color: rgb(15, 204, 204);
+    box-shadow: 0px 2px  1px rgb(146, 145, 145);
+    
+}
+.box{
+    width: 15%;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 0 5px 15px rgb(146, 145, 145);
+    border-radius: 4px;
+    margin: 40px;
+    cursor: pointer;
+    display: inline-block;
+}
+.box h6{
+    background-color: black;
+    padding: 3%;
+    color: white;
+    font-size: 11px;
+    margin: 0px 18px 5px 18px;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box:hover{
+    box-shadow: 0 5px 15px rgb(91, 91, 91);
+}
+.selection{
+    margin-left: 7.5%;
+    display: inline;}
+.fetured{
+    text-align: center;
+    margin-top: 30px;
+
+}
+.banner{
+    background-image: url("images/img23.jpg");
+    height: 280px;
+    background-size: cover;
+    text-align: center;
+   
+}
+.banner h2{
+    padding-top: 150px;
+}
+.banner h5{
+    color: white;
+    background-color: black;
+    border: 1px black solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 3px;
+}
+.banner h5:hover{
+background-color:rgb(210, 244, 255);
+font-weight: 1200;
+color: black;
+}
+
+.end{
+    background-color: black;
+    height: 430px;
+}
+h3{
+    margin-left: 4.6%;
+    padding-top: 80px;
+}
+.details{
+    display: inline-block;
+    margin-left: 100px;
+}
